@@ -11,3 +11,11 @@ APP_REDIRECT_URL="http://127.0.0.1:8000/"
 
 
 APP_AUTH_URL='https://api.weibo.com/oauth2/authorize?client_id=2267878554&response_type=code&redirect_uri=http://127.0.0.1:8000/'
+
+AUTH_REDIRECT_URI_PORT=8000
+
+API_HOST="api.weibo.com"
+
+API_USER_TIMELINE="/2/statuses/user_timeline.json"
+
+LOCAL_SAVE_PATH="g:/weibo_spider/"
