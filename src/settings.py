@@ -9,11 +9,11 @@ APP_SECRET = "e374fc2aee769b3158bf3e86a59638f6"
 
 AUTH_REDIRECT_URI_PORT=8000
 
-APP_REDIRECT_URL="http://127.0.0.1:"+AUTH_REDIRECT_URI_PORT+"/"
+APP_REDIRECT_URL="http://127.0.0.1:"+str(AUTH_REDIRECT_URI_PORT)+"/"
 
 APP_AUTH_URL='https://api.weibo.com/oauth2/authorize?client_id='+APP_KEY+'&response_type=code&redirect_uri='+APP_REDIRECT_URL
 
-LOCAL_SAVE_PATH="C:/weibo_spider/"
+LOCAL_SAVE_PATH="c:/weibo_spider/"
 
 API_HOST="api.weibo.com"
 
