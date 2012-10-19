@@ -55,6 +55,8 @@ def fetch_weibo(access_token,page=1,screen_name=None):
     jsonObj=json.loads(data)
     conn.close()
     
+    print(jsonObj)
+    
     pic_list=extract_pic(jsonObj)
     
     for pic in pic_list:
